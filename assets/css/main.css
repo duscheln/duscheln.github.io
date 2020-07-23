@@ -425,7 +425,7 @@
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: "Font Awesome 5 Free Solid", "Font Awesome 5 Free" !important;
 				font-weight: 900;
 			}
 
@@ -501,8 +501,8 @@
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-family: "Font Awesome\ 5 Free", "Font Awesome\ 5 Brands" !important;
+			font-weight: 900;
 		}
 
 		.icon > .label {
@@ -518,7 +518,7 @@
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: "Font Awesome\ 5 Free Solid", "Font Awesome\ 5 Free", 'Font Awesome\ 5 Brands' !important;
 		}
 
 /* List */
@@ -731,7 +731,7 @@
 					text-rendering: auto;
 					line-height: 1;
 					text-transform: none !important;
-					font-family: 'Font Awesome 5 Free';
+					font-family: "Font Awesome\ 5 Free Solid", "Font Awesome\ 5 Free", 'Font Awesome\ 5 Brands' !important;
 					font-weight: 400;
 				}
 
